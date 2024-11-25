@@ -1,4 +1,4 @@
-# Restaurant 2050 Website
+# Kabul Resturant Website
 
 Welcome to the official **Kabul Restaurant** website! This repository contains the code for our restaurant's online presence, showcasing our menu, reservation system, and contact information.
 
