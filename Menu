@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Kabul Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  
+    <header class="header">
+        <div class="logo">
+            <h1><span>Kabul</span> Restaurant</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="book.html" >Book a Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="menu-section">
+        <div class="container">
+            <h2 class="menu-title">Our Menu</h2>
+
+       
+            <div class="menu-category">
+                <h3>Specials</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <img src="kabuli.jpg" alt="Appetizer 1">
+                        <h4>Kabuli Palow</h4>
+                        <h3>Full Plate</h3>
+                        <p>Indulge in the rich flavors of Kabul Palow, a traditional Afghan delicacy featuring perfectly cooked basmati rice, tender meat (lamb, chicken, or beef), and a blend of aromatic spices.</p>
+                        <span>$8.99</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="kebab.jpg" alt="Appetizer 2">
+                        <h4>Kebab (Tekka)</h4>
+                        <h3>8 Stick</h3>
+                        <p>Experience the mouthwatering taste of Kebab Tekka, a popular Afghan dish made with marinated chunks of tender meat (usually chicken or beef), grilled to perfection over an open flame.</p>
+                        <span>$10.99</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="manto.jpg" alt="Appetizer 2">
+                        <h4>Manto</h4>
+                        <h3>8Pcs</h3>
+                        <p>Experience the mouthwatering taste of manto, a popular Afghan dish made with marinated chunks of tender meat (usually vegetables or beef), boiled to perfection over an open flame.</p>
+                        <span>$7.99</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="karahi.jpg" alt="Appetizer 2">
+                        <h4>Karahi</h4>
+                        <h3>Full Plate</h3>
+                        <p>Experience the mouthwatering taste of Karahi, a popular Afghan dish made with marinated chunks of tender meat (usually chicken or beef), cooked  to perfection over an open flame.</p>
+                        <span>$9.99</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="menu-category">
+                <h3>Main Courses</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <img src="bolani.jpg" alt="Main Course 1">
+                        <h4>Bolani</h4>
+                        <h3>4Pcs</h3>
+                        <p>Bolani is a popular Afghan stuffed flatbread, typically filled with a mixture of potatoes, green onions, and spices, then pan-fried to golden perfection. It's a delicious snack or appetizer often enjoyed with yogurt or chutney.</p>
+                        <span>$12.99</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="samosa.jpg" alt="Main Course 2">
+                        <h4>Samosa</h4>
+                        <h3>4Pcs</h3>
+                        <p>Afghan samosas are crispy triangular pastries filled with spiced ground meat or lentils. They are deep-fried and served as a savory treat, perfect for pairing with tangy dipping sauces.</p>
+                        <span>$8.99</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="falafel.jpg" alt="Main Course 2">
+                        <h4>Falafel</h4>
+                        <h3>4Pcs</h3>
+                        <p> A Persian-style chickpea fritter, spiced and crispy, often served in bread with pickles and tahini sauce.</p>
+                        <span>$8.99</span>
+                    </div>
+                </div>
+            </div>
+
+         
+            <div class="menu-category">
+                <h3>Desserts</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <img src="dessert.jpg" alt="Dessert 1">
+                        <h4>Baghlawa</h4>
+                        <p>A sweet, nut-filled pastry soaked in cardamom and rosewater syrup, perfect for celebrations.</p>
+                        <span>$6.99</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="dessert1.jpg" alt="Dessert 2">
+                        <h4>Ferini</h4>
+                        <p>A sweet, nut-filled pastry soaked in cardamom and rosewater syrup, perfect for celebrations.</p>
+                        <span>$7.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <div class="footer-address">
+                    <h3>Contact Us</h3>
+                    <p>123 Future Street, City Name, Country</p>
+                    <p>Phone: +123 456 7890</p>
+                    <p>Email: contact@restaurant.com</p>
+                </div>
+            </div>
+
+            <div class="footer-map">
+                <h3>Our Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com" target="_blank" class="social-icon"><i class="fab fa-x"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copy">
+            <p>&copy; Kabul Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
