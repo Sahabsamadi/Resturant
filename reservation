@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Reservation - Kabul Restaurant </title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the global stylesheet -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Kabul Restaurant</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="book.html" class="active">Book a Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="reservation">
+        <div class="reservation-title">
+            <h2>Book a Reservation</h2>
+            <p>Reserve a table at Kabul Restaurant for an unforgettable dining experience!</p>
+        </div>
+        
+        <form class="reservation-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="date">Reservation Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="time">Reservation Time</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="guests">Number of Guests</label>
+                <input type="number" id="guests" name="guests" min="1" max="20" required>
+            </div>
+
+            <button type="submit" class="btn-submit">Book Now</button>
+        </form>
+    </section>
+
+   
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Contact Information and Address -->
+        <div class="footer-contact">
+            <div class="footer-address">
+                <h3>Contact Us</h3>
+                <p>123 Future Street, City Name, Country</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Email: contact@restaurant.com</p>
+            </div>
+        </div>
+
+       
+        <div class="footer-map">
+            <h3>Our Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.587287982377!2d-74.00594138461954!3d40.71277577933173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a24345e9a75%3A0x54acfc5da4334c0!2sNew%20York%20City%2C%20NY%2010014!5e0!3m2!1sen!2sus!4v1632528535949!5m2!1sen!2sus"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com" target="_blank" class="social-icon"><i class="fab fa-x"></i></a>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="footer-copy">
+        <p>&copy; Kabul Restaurant. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
