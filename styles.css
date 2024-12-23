@@ -200,9 +200,9 @@ body {
     color: yellow;
 }
 
-/* Footer Section Styles */
+/* Alternate Footer Design */
 .footer {
-    background: linear-gradient(45deg, #ffcc00, #111); /* Yellow to black gradient */
+    background: #111;
     color: #fff;
     padding: 50px 20px;
     text-align: center;
@@ -213,84 +213,83 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.footer-contact, .footer-map, .footer-social {
+.footer-section {
     flex: 1;
-    margin: 0 20px;
+    margin: 20px;
 }
 
-.footer-contact h3, .footer-map h3, .footer-social h3 {
+.footer-section h3 {
     font-size: 1.5rem;
-    color: #ffcc00;
+    color: yellow;
     margin-bottom: 15px;
+    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.footer-contact p, .footer-social p {
-    font-size: 1rem;
-    margin: 5px 0;
-    font-family: 'Arial', sans-serif;
+.footer-section ul {
+    list-style: none;
+    padding: 0;
 }
 
-.footer-map iframe {
-    width: 100%;
-    height: 300px;
-    border: 0;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+.footer-section ul li {
+    margin: 10px 0;
 }
 
-.footer-social .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.footer-social .social-icons a {
+.footer-section ul li a {
     color: #fff;
-    font-size: 2rem;
+    text-decoration: none;
+    font-size: 1rem;
     transition: color 0.3s ease-in-out;
 }
 
-.footer-social .social-icons a:hover {
-    color: #ffcc00;
+.footer-section ul li a:hover {
+    color: yellow;
+}
+
+.footer-section .contact-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.footer-section .newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 70%;
+}
+
+.footer-section .newsletter button {
+    padding: 10px 15px;
+    border: none;
+    background-color: yellow;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.footer-section .newsletter button:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 .footer-copy {
-    width: 100%;
     margin-top: 20px;
     font-size: 1rem;
     color: #aaa;
+    text-align: center;
 }
 
 .footer-copy p {
     margin: 0;
-    letter-spacing: 1px;
 }
 
-/* Responsive Design for Mobile */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .footer-map iframe {
-        height: 250px;
-    }
-
-    .footer-social .social-icons {
-        justify-content: center;
-    }
-
-    .footer-contact, .footer-social {
-        margin-bottom: 20px;
-    }
-}
 
 menu
 
@@ -537,7 +536,7 @@ header .navbar a.active {
 
 .reservation-form button {
     grid-column: span 2;
-    padding: 15px;
+    padding: 8px;
     font-size: 1.2rem;
     background-color: #ffcc00;
     border: none;
@@ -549,4 +548,40 @@ header .navbar a.active {
 
 .reservation-form button:hover {
     background-color: #e6b800;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+
+    .menu-item {
+        width: 100%;
+    }
+
+    .reservation-form {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-map iframe {
+        height: 250px;
+    }
 }
